@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6994b3e3ca831294d143df7f"
+  },
+  "nom": "Víctor Charneco",
+  "adreca": {
+    "carrer": "Carrer de Joan Maragall",
+    "numero": 18,
+    "pis": 2,
+    "porta": "2a",
+    "ciutat": "El Prat de Llobregat",
+    "codi_postal": "08820",
+    "pais": "Espanya"
+  },
+  "telefon": "631784215",
+  "correu_electronic": "victor.charneco@exemple.com",
+  "data_registre": "2025-06-20",
+  "recomanat_per": null,
+  "ultimes_compres": [
+    {
+      "data_venda": "2025-07-03T10:35:00Z",
+      "empleat": {
+        "id_intern": "EMP-01",
+        "nom": "Laia Roca"
+      },
+      "ulleres": {
+        "marca": "NorthBay",
+        "tipus_muntura": "metàl·lica",
+        "color_muntura": "gris",
+        "graduacio": {
+          "vidre_dret": -1.75,
+          "vidre_esquerre": -2
+        },
+        "color_vidres": {
+          "dret": "transparent",
+          "esquerre": "transparent"
+        },
+        "preu": 129.9,
+        "proveidor": {
+          "nom": "Vision Delta SL",
+          "nif": "B72819463",
+          "telefon": "934112233",
+          "fax": "934112234",
+          "adreca": {
+            "carrer": "Carrer del Centre",
+            "numero": 44,
+            "pis": 1,
+            "porta": "B",
+            "ciutat": "Barcelona",
+            "codi_postal": "08014",
+            "pais": "Espanya"
+          }
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6994b646ca831294d143df83"
+  },
+  "nom": "Núria Solé",
+  "adreca": {
+    "carrer": "Carrer del Pintor Nonell",
+    "numero": 3,
+    "pis": 4,
+    "porta": "1a",
+    "ciutat": "El Prat de Llobregat",
+    "codi_postal": "08820",
+    "pais": "Espanya"
+  },
+  "telefon": "622903118",
+  "correu_electronic": "nuria.sole@exemple.com",
+  "data_registre": "2025-07-01",
+  "recomanat_per": {
+    "client_id": {
+      "$oid": "6994b3e3ca831294d143df7f"
+    },
+    "nom": "Víctor Charneco",
+    "telefon": "631784215"
+  },
+  "ultimes_compres": [
+    {
+      "data_venda": "2025-07-15T12:05:00Z",
+      "empleat": {
+        "id_intern": "EMP-02",
+        "nom": "Marc Vidal"
+      },
+      "ulleres": {
+        "marca": "Cul d'Ampolla Basic",
+        "tipus_muntura": "flotant",
+        "color_muntura": "blau",
+        "graduacio": {
+          "vidre_dret": -0.75,
+          "vidre_esquerre": -0.5
+        },
+        "color_vidres": {
+          "dret": "transparent",
+          "esquerre": "transparent"
+        },
+        "preu": 99,
+        "proveidor": {
+          "nom": "Òptiques Tramuntana SCCL",
+          "nif": "F19340567",
+          "telefon": "931556677",
+          "fax": "931556678",
+          "adreca": {
+            "carrer": "Carrer del Doctor Recasens",
+            "numero": 12,
+            "pis": 2,
+            "porta": "A",
+            "ciutat": "Barcelona",
+            "codi_postal": "08027",
+            "pais": "Espanya"
+          }
+        }
+      }
+    }
+  ]
+}]
